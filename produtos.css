@@ -3,28 +3,96 @@ header {
     padding: 10px 0;
 }
 
-.container_header{
-width: 940px;
-position: relative;
-margin: 0 auto;
+.container_header {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 
 }
 
 nav {
     position: absolute;
     top: 110px;
-    right: 0; 
+    right: 0;
 }
 
- nav li {
+nav li {
     display: inline;
     margin: 0 0 0 15px;
-   
+
 }
 
 nav a {
     text-transform: uppercase;
     color: black;
     text-decoration: none;
+}
 
+nav a:hover{
+    color: rgb(141, 133, 58);
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4%;
+    box-sizing: border-box;
+    padding: 30px 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.produtos li:hover{
+    border-color:  rgb(141, 133, 58);
+}
+
+.produtos li:active{
+    border-color: aquamarine;
+}
+
+.produtos h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+    color: rgb(141, 133, 58);
+}
+
+.text_content {
+    font-size: 18px;
+}
+
+.text-price {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.text-price:hover{
+    font-size: 35px;
+    color:  rgb(141, 133, 58);;
+}
+
+footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 0;
+}
+.text_footer{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
 }
