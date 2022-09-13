@@ -53,7 +53,7 @@ nav a:hover{
 }
 
 .produtos li:hover{
-    border-color:  rgb(141, 133, 58);
+    border-color: rgb(190, 172, 6);
 }
 
 .produtos li:active{
@@ -69,7 +69,7 @@ nav a:hover{
 
 .produtos li:hover h2{
     font-size: 35px;
-    color: rgb(141, 133, 58);
+    color: rgb(190, 172, 6);
 }
 
 .text_content {
@@ -83,7 +83,7 @@ nav a:hover{
 
 .text-price:hover{
     font-size: 35px;
-    color:  rgb(141, 133, 58);;
+    color: rgb(190, 172, 6);
 }
 
 footer{

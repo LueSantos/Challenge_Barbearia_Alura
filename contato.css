@@ -1,0 +1,57 @@
+.form_container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.form_table {
+    display: block;
+    margin: 40px 0;
+
+}
+
+.text_label {
+    display: block;
+    margin:  0 0 20px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.inputs_form {
+    display: block;
+    width: 450px;
+    margin: 0 10px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.text_radioContact{
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text_message{
+    display: block;
+    margin:  0 auto;
+}
+
+.label_radio{
+    display: block;
+    margin: 15px;
+
+}
+
+.btn_form{
+    display: block;
+    width: 170px;
+    padding:5px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #bbbbbb;
+}
+
+.btn_form:hover{
+    background-color: aquamarine;
+}
